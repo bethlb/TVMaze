@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="FieldsCantBeSavedWhenInvalid"
+    errors="0" failures="1" hostname="" id="" package="FieldsCantBeSavedWhenInvalid" skipped="2"
+    tests="3" time="4.809" timestamp="Thu, 25 Oct 2018 20:32:20 GMT">
+  
+    <testcase name="QOBB-68 Name invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid" time="4.809" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at Object.QOBB-68 Name invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:18:24)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="QOBB-68 Phone invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="QOBB-68 Title invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

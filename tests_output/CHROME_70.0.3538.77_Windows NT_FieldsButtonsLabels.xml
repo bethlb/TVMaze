@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="FieldsButtonsLabels"
+    errors="0" failures="1" hostname="" id="" package="FieldsButtonsLabels" skipped="0"
+    tests="1" time="4.538" timestamp="Tue, 13 Nov 2018 23:50:52 GMT">
+  
+    <testcase name="QOB-55 All expected fields, labels and buttons are present" classname="FieldsButtonsLabels" time="4.538" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;#saveBtn&gt; text to equal: &#34;Save&#34;">    at Object.QOB-55 All expected fields, labels and buttons are present (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsButtonsLabels.js:29:36)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

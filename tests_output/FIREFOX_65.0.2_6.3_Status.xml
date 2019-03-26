@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="4"
+            tests="4">
+
+  <testsuite name="Status"
+    errors="0" failures="4" hostname="" id="" package="Status" skipped="0"
+    tests="4" time="297.2" timestamp="Sun, 24 Mar 2019 21:34:36 GMT">
+  
+    <testcase name="QOBB-164 Follow shows and verify in Status list with correct status" classname="Status" time="180.2" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Show Status List Length is Correct)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Status.js:69:28)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-164 Unfollow subset of shows and verify Show Status list" classname="Status" time="37.37" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Show Status List Length is Correct)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Status.js:126:28)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-164 Follow removed shows and verify they are added to Show Status list" classname="Status" time="54.69" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//h1[text()=&#34;Search&#34;]&gt; to be present for 20000 milliseconds.">    at module.exports (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\functions\searchForItem.js:5:10)
+    at QOBB-164 Follow removed shows and verify they are added to Show Status list.testData.showStatusInputAndResults.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Status.js:135:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-164 Follow removed shows and verify they are added to Show Status list (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Status.js:134:44)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-164 Unfollow all shows and verify Show Status list is Empty" classname="Status" time="24.92" assertions="1">  <failure message="Timed out while waiting for element &lt;#logo&gt; to be present for 8000 milliseconds.">    at Object.beforeEach (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Status.js:24:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

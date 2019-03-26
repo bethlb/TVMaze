@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="InvalidFieldInputs"
+    errors="0" failures="0" hostname="" id="" package="InvalidFieldInputs" skipped="0"
+    tests="6" time="19.94" timestamp="Tue, 13 Nov 2018 23:59:43 GMT">
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 1" classname="InvalidFieldInputs" time="6.887" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 2" classname="InvalidFieldInputs" time="2.615" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 3" classname="InvalidFieldInputs" time="2.546" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid minimum field length" classname="InvalidFieldInputs" time="2.601" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid maximum field length" classname="InvalidFieldInputs" time="2.751" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid field is underlined in Red" classname="InvalidFieldInputs" time="2.541" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

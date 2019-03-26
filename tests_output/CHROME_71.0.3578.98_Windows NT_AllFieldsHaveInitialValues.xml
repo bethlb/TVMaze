@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="AllFieldsHaveInitialValues"
+    errors="0" failures="1" hostname="" id="" package="AllFieldsHaveInitialValues" skipped="0"
+    tests="1" time="10.34" timestamp="Tue, 22 Jan 2019 00:40:30 GMT">
+  
+    <testcase name="QOBB-57 All Employee fields have correct initial values" classname="AllFieldsHaveInitialValues" time="10.34" assertions="5">
+
+    
+
+    
+
+      <failure message="Testing if attribute value of &lt;input[name=&#34;phoneEntry&#34;]&gt; equals &#34;(111)111-1111&#34;.">    at QOBB-57 All Employee fields have correct initial values.testData.initialFieldValues.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveInitialValues.js:29:25)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-57 All Employee fields have correct initial values (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveInitialValues.js:27:37)</failure>
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

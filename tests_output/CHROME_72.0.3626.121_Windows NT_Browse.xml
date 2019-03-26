@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Browse"
+    errors="0" failures="0" hostname="" id="" package="Browse" skipped="0"
+    tests="1" time="200.4" timestamp="Tue, 26 Mar 2019 01:43:42 GMT">
+  
+    <testcase name="QOBB-162 Browse" classname="Browse" time="200.4" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

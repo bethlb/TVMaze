@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="4"
+            tests="4">
+
+  <testsuite name="AllFieldsHaveValuesToSave"
+    errors="0" failures="4" hostname="" id="" package="AllFieldsHaveValuesToSave" skipped="0"
+    tests="4" time="53.22" timestamp="Tue, 22 Jan 2019 02:11:07 GMT">
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing name value" classname="AllFieldsHaveValuesToSave" time="19.22" assertions="2">
+
+      <failure message="Expected element &lt;button[name=&#34;save&#34;]&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\testAssets\functions.js:81:25)
+    at Object.QOBB-67 Every field must be populated to Save - Missing name value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveValuesToSave.js:26:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing phone value" classname="AllFieldsHaveValuesToSave" time="11.19" assertions="2">
+
+      <failure message="Expected element &lt;button[name=&#34;save&#34;]&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\testAssets\functions.js:81:25)
+    at Object.QOBB-67 Every field must be populated to Save - Missing phone value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveValuesToSave.js:36:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing email value" classname="AllFieldsHaveValuesToSave" time="11.44" assertions="2">
+
+      <failure message="Expected element &lt;button[name=&#34;save&#34;]&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\testAssets\functions.js:81:25)
+    at Object.QOBB-67 Every field must be populated to Save - Missing email value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveValuesToSave.js:46:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing title value" classname="AllFieldsHaveValuesToSave" time="11.36" assertions="2">
+
+      <failure message="Expected element &lt;button[name=&#34;save&#34;]&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\testAssets\functions.js:81:25)
+    at Object.QOBB-67 Every field must be populated to Save - Missing title value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\AllFieldsHaveValuesToSave.js:56:9)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

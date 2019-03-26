@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="Follow"
+    errors="0" failures="1" hostname="" id="" package="Follow" skipped="0"
+    tests="4" time="386.7" timestamp="Tue, 26 Mar 2019 02:14:00 GMT">
+  
+    <testcase name="QOBB-165 No items in Follow List" classname="Follow" time="37.15" assertions="8">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//div[@id=&#34;follow-list&#34;]/descendant::div[last()-3]&gt; is present.">    at Object.QOBB-165 No items in Follow List (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Follow.js:44:21)</failure>
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-165 Follow Shows, People, Networks and Web Channels and verify Follow List" classname="Follow" time="223.7" assertions="24">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-165 Unfollow some Shows. People, Networks and Web Channels and verify Follow list" classname="Follow" time="89.89" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-164 Unfollow remaining shows, people, networks and webchannels and verify Follow list is Empty" classname="Follow" time="35.94" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

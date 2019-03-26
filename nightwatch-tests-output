@@ -1,0 +1,390 @@
+[1;35mStarting selenium server... [0m[1;35mstarted - PID: [0m 33292
+
+[0;36m[Add New Employee] Test Suite[0m
+[0;35m=================================[0m
+
+Running:  [0;32mQOBB-80 Verify new employee appears in left list when added[0m
+ [0;32m√[0m Element <.titleText> was visible after 47 milliseconds.
+ [0;32m√[0m Expected element <(//li[@class="listText"][last()-1])> text to equal: "New Employee"
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (3.692s)
+
+Running:  [0;32mQOBB-80 Verify new employee has correct employee number[0m
+ [0;32m√[0m Passed [ok]: 1 ok New Employee has correct id
+ [0;32m√[0m Element <.titleText> was visible after 32 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (883ms)
+
+Running:  [0;32mQOBB-80 Verify new employee field prompts have valid values[0m
+ [0;32m√[0m Element <.titleText> was visible after 27 milliseconds.
+ [0;32m√[0m Passed [ok]: true ok
+ [0;32m√[0m Passed [ok]: true ok
+ [0;32m√[0m Passed [ok]: true ok
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (425ms)
+
+Running:  [0;32mQOBB-80 Verify new employee Save is working[0m
+ [0;32m√[0m Element <.titleText> was visible after 29 milliseconds.
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Casper the Ghost".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "1212121212".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Friendly Ghost".
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (715ms)
+
+[0;36m[All Employees In App] Test Suite[0m
+[0;35m=====================================[0m
+
+Running:  [0;32mQOBB-56 Check all employee names correct after initial app load[0m
+ [0;32m√[0m Element <.titleText> was visible after 38 milliseconds.
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Bernice Ortiz" in 2000ms - condition was met in 42ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(2)> text to equal: "Marnie Barnett" in 2000ms - condition was met in 36ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(3)> text to equal: "Phillip Weaver" in 2000ms - condition was met in 35ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(4)> text to equal: "Teresa Osborne" in 2000ms - condition was met in 33ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(5)> text to equal: "Dollie Berry" in 2000ms - condition was met in 34ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(6)> text to equal: "Harriett Williamson" in 2000ms - condition was met in 34ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(7)> text to equal: "Ruby Estrada" in 2000ms - condition was met in 33ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(8)> text to equal: "Lou White" in 2000ms - condition was met in 34ms
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(9)> text to equal: "Eve Sparks" in 2000ms - condition was met in 34ms
+ [0;32m√[0m Expected element <li[name="employee10"]> text to equal: "Lois Brewer" in 2000ms - condition was met in 33ms
+
+[0;32mOK.[0m [0;32m11[0m assertions passed. (3.585s)
+
+[0;36m[All Fields Have Initial Values] Test Suite[0m
+[0;35m===============================================[0m
+
+Running:  [0;32mQOBB-57 All Editor fields have initial values[0m
+ [0;32m√[0m Element <.titleText> was visible after 41 milliseconds.
+ [0;32m√[0m Expected element <input[name="nameEntry"]> to have value not equal to: "" in 1000ms - condition was met in 37ms
+ [0;32m√[0m Expected element <input[name="phoneEntry"]> to have value not equal to: "" in 1000ms - condition was met in 28ms
+ [0;32m√[0m Expected element <input[name="titleEntry"]> to have value not equal to: "" in 1000ms - condition was met in 25ms
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (3.621s)
+
+[0;36m[All Fields Have Values To Save] Test Suite[0m
+[0;35m===============================================[0m
+
+Running:  [0;32mQOBB-67 Every field must be populated to Save - Missing name value[0m
+ [0;32m√[0m Element <.titleText> was visible after 38 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing name value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:25:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (3.91s)
+
+Running:  [0;32mQOBB-67 Every field must be populated to Save - Missing phone value[0m
+ [0;32m√[0m Element <.titleText> was visible after 37 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing phone value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:34:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (4.431s)
+
+Running:  [0;32mQOBB-67 Every field must be populated to Save - Missing title value[0m
+ [0;32m√[0m Element <.titleText> was visible after 38 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing title value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:43:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (4.123s)
+
+[0;36m[Cancel] Test Suite[0m
+[0;35m=======================[0m
+
+Running:  [0;32mQOBB-60 Cancel prior to Save[0m
+ [0;32m√[0m Element <.titleText> was visible after 36 milliseconds.
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Bernice Ortiz".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "4824931093".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "CEO".
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Bernice Ortiz".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "4824931093".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "CEO".
+
+[0;32mOK.[0m [0;32m7[0m assertions passed. (4.359s)
+
+Running:  [0;32mQOBB-60 Cancel after to Save[0m
+ [0;32m√[0m Element <.titleText> was visible after 26 milliseconds.
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Joe Schmo".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "4564564567".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Sales Manager".
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Joe Schmo".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "4564564567".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Sales Manager".
+
+[0;32mOK.[0m [0;32m7[0m assertions passed. (971ms)
+
+[0;36m[Fields Buttons Labels] Test Suite[0m
+[0;35m======================================[0m
+
+Running:  [0;32mQOB-55 All expected fields, labels and buttons are present[0m
+ [0;32m√[0m Element <.titleText> was visible after 39 milliseconds.
+ [0;32m√[0m Expected element <.titleText> text to equal: "Employee Manager"
+ [0;32m√[0m Expected element <#noEmployee> text to equal: "No Employee Selected"
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Bernice Ortiz"
+ [0;32m√[0m Expected element <.infoCard > div > span:nth-child(7)> text to equal: "Name"
+ [0;32m√[0m Expected element <.infoCard > div > span:nth-child(9)> text to equal: "Phone Number"
+ [0;32m√[0m Expected element <.infoCard > div > span:nth-child(11)> text to equal: "Title"
+ [0;32m√[0m Expected element <.neutralButton> text to equal: "Cancel"
+ [0;32m√[0m Expected element <#saveBtn> text to equal: "Save"
+
+[0;32mOK.[0m [0;32m9[0m assertions passed. (3.815s)
+
+[0;36m[Fields Cant Be Saved When Invalid] Test Suite[0m
+[0;35m==================================================[0m
+
+Running:  [0;32mQOBB-68 Name invalid; other fields valid[0m
+ [0;32m√[0m Element <.titleText> was visible after 36 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-68 Name invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:22:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (4.101s)
+
+Running:  [0;32mQOBB-68 Phone invalid; other fields valid[0m
+ [0;32m√[0m Element <.titleText> was visible after 36 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-68 Phone invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:30:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (4.154s)
+
+Running:  [0;32mQOBB-68 Title invalid; other fields valid[0m
+ [0;32m√[0m Element <.titleText> was visible after 38 milliseconds.
+ [0;31m×[0m Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m
+[0;90m    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-68 Title invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:38:9)[0m
+
+
+[0;31mFAILED: [0m [0;31m1[0m assertions failed and [0;32m1[0m passed (3.69s)
+
+[0;36m[General Edit] Test Suite[0m
+[0;35m=============================[0m
+
+Running:  [0;32mQOBB-58 Name, Phone and Title can be edited; Save and Cancel active when fields are edited[0m
+ [0;32m√[0m Element <.titleText> was visible after 40 milliseconds.
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Bernice1".
+ [0;32m√[0m Expected element <#saveBtn> to not have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to not have attribute "disabled"
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "1234567890".
+ [0;32m√[0m Expected element <#saveBtn> to not have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to not have attribute "disabled"
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Manager".
+ [0;32m√[0m Expected element <#saveBtn> to not have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to not have attribute "disabled"
+
+[0;32mOK.[0m [0;32m10[0m assertions passed. (3.929s)
+
+Running:  [0;32mQOBB-58 ID field cannot be edited; Save and Cancel not active for ID[0m
+ [0;32m√[0m Element <.titleText> was visible after 27 milliseconds.
+ [0;32m√[0m Expected element <idEntry> to not be present - element was not found
+ [0;32m√[0m Expected element <#saveBtn> to have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to have attribute "disabled"
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (171ms)
+
+[0;36m[Invalid Field Inputs] Test Suite[0m
+[0;35m=====================================[0m
+
+Running:  [0;32mQOBB-62 Test invalid value types for each field - Test 1[0m
+ [0;32m√[0m Expected element <(//div)[text()="The phone number must be 10 digits long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The phone number must be 10 digits long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The phone number must be 10 digits long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The phone number must be 10 digits long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The name field must be between 1 and 30 characters long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The phone number must be 10 digits long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+ [0;32m√[0m Expected element <(//div)[text()="The title field must be between 1 and 30 characters long. "]> to be visible
+ [0;32m√[0m Expected element <input.materialInput.invalidInfo> to have css property "border-bottom" which equals: "2px solid rgb(204, 0, 0)"
+ [0;32m√[0m Red Underline Present
+
+[0;32mOK.[0m [0;32m21[0m assertions passed. (8.191s)
+
+[0;36m[Save] Test Suite[0m
+[0;35m=====================[0m
+
+Running:  [0;32mQOBB-59 No Save[0m
+ [0;32m√[0m Element <.titleText> was visible after 43 milliseconds.
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Bernice Ortiz"
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Bernice Ortiz"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Bernice Ortiz".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "4824931093".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "CEO".
+
+[0;32mOK.[0m [0;32m6[0m assertions passed. (3.828s)
+
+Running:  [0;32mQOBB-59 Single Save[0m
+ [0;32m√[0m Element <.titleText> was visible after 31 milliseconds.
+ [0;32m√[0m Expected element <#employeeTitle> text to equal: "Phillip Weaver" in 500ms - condition was met in 33ms
+ [0;32m√[0m Expected element <#employeeTitle> text to equal: "Homer Simpson" in 500ms - condition was met in 17ms
+ [0;32m√[0m Expected element <input[name="nameEntry"]> to have value equal: "Homer Simpson"
+ [0;32m√[0m Expected element <input[name="phoneEntry"]> to have value equal: "1234567890"
+ [0;32m√[0m Expected element <input[name="titleEntry"]> to have value equal: "Manager"
+ [0;32m√[0m Expected element <#saveBtn> to not have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to not have attribute "disabled"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Homer Simpson".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "1234567890".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Manager".
+
+[0;32mOK.[0m [0;32m11[0m assertions passed. (1.046s)
+
+Running:  [0;32mQOBB-59 Double Save[0m
+ [0;32m√[0m Element <.titleText> was visible after 25 milliseconds.
+ [0;32m√[0m Expected element <#employeeTitle> text to equal: "Phillip Weaver" in 500ms - condition was met in 25ms
+ [0;32m√[0m Expected element <#employeeTitle> text to equal: "Homer Simpson" in 500ms - condition was met in 19ms
+ [0;32m√[0m Expected element <input[name="nameEntry"]> to have value equal: "Homer Simpson"
+ [0;32m√[0m Expected element <input[name="phoneEntry"]> to have value equal: "1234567890"
+ [0;32m√[0m Expected element <input[name="titleEntry"]> to have value equal: "Manager"
+ [0;32m√[0m Expected element <#saveBtn> to not have attribute "disabled"
+ [0;32m√[0m Expected element <.neutralButton> to not have attribute "disabled"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Marge Simpson".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "2323232323".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "CFO".
+
+[0;32mOK.[0m [0;32m11[0m assertions passed. (1.02s)
+
+[0;36m[Valid Field Inputs] Test Suite[0m
+[0;35m===================================[0m
+
+Running:  [0;32mQOBB-60 Test all valid value types for each field[0m
+ [0;32m√[0m Element <.titleText> was visible after 39 milliseconds.
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Queen Elizabeth12$$"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Queen Elizabeth12$$".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "1234567890".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Manager".
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Queen Elizabeth12$$"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Queen Elizabeth12$$".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "1234567890".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "Manager-(Dept 1)".
+ [0;32m√[0m Expected element <.listContainer > li:nth-child(1)> text to equal: "Q"
+ [0;32m√[0m Testing if value of <input[name="nameEntry"]> equals: "Q".
+ [0;32m√[0m Testing if value of <input[name="phoneEntry"]> equals: "3334445555".
+ [0;32m√[0m Testing if value of <input[name="titleEntry"]> equals: "M".
+
+[0;32mOK.[0m [0;32m13[0m assertions passed. (4.9s)
+
+[0;36m[Validate Ids] Test Suite[0m
+[0;35m=============================[0m
+
+Running:  [0;32mQOBB-75 Check for valid ID[0m
+ [0;32m√[0m Element <.titleText> was visible after 40 milliseconds.
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is an integer
+ [0;32m√[0m Passed [ok]: ID is a positive integer
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+ [0;32m√[0m Passed [ok]: ID is Unique
+
+[0;32mOK.[0m [0;32m66[0m assertions passed. (4.379s)
+
+[1;31m _________________________________________________[0m
+
+ [1;31mTEST FAILURE:[0m  [0;31m6[0m assertions failed, [0;32m198[0m passed. (1m 25s)
+
+[0;31m × AllFieldsHaveValuesToSave[0m
+
+   - QOBB-67 Every field must be populated to Save - Missing name value [1;33m(3.91s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-67 Every field must be populated to Save - Missing name value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:25:9)[0m
+
+   - QOBB-67 Every field must be populated to Save - Missing phone value [1;33m(4.431s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-67 Every field must be populated to Save - Missing phone value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:34:9)[0m
+
+   - QOBB-67 Every field must be populated to Save - Missing title value [1;33m(4.123s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-67 Every field must be populated to Save - Missing title value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:43:9)[0m
+
+[0;31m × FieldsCantBeSavedWhenInvalid[0m
+
+   - QOBB-68 Name invalid; other fields valid [1;33m(4.101s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-68 Name invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:22:9)[0m
+
+   - QOBB-68 Phone invalid; other fields valid [1;33m(4.154s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-68 Phone invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:30:9)[0m
+
+   - QOBB-68 Title invalid; other fields valid [1;33m(3.69s)[0m
+[0;31m   Expected element <#saveBtn> to have attribute "disabled" - attribute was not found [1;37m - expected [0;32m"found"[0m[0m but got: [0;31m"not found"[0m[0m
+[0;90m       at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+       at Object.QOBB-68 Title invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:38:9)[0m
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="2"
+            tests="2">
+
+  <testsuite name="Cancel"
+    errors="3" failures="2" hostname="" id="" package="Cancel" skipped="0"
+    tests="2" time="5.567" timestamp="Tue, 13 Nov 2018 23:53:52 GMT">
+  
+    <testcase name="QOBB-60 Cancel prior to Sieve" classname="Cancel" time="4.510" assertions="7">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;input[name=&#34;nameEntry&#34;]&gt; equals: &#34;Bernice Ortiz&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel prior to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:50:13)</failure>
+
+      <failure message="Testing if value of &lt;input[name=&#34;phoneEntry&#34;]&gt; equals: &#34;4824931093&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel prior to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:51:13)</failure>
+
+      <failure message="Testing if value of &lt;input[name=&#34;titleEntry&#34;]&gt; equals: &#34;CEO&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel prior to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:52:13)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-60 Cancel after to Sieve" classname="Cancel" time="1.057" assertions="7">
+
+      <failure message="Testing if value of &lt;input[name=&#34;nameEntry&#34;]&gt; equals: &#34;Joe Schmo&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:72:13)</failure>
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;input[name=&#34;nameEntry&#34;]&gt; equals: &#34;Joe Schmo&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:79:13)</failure>
+
+      <failure message="Testing if value of &lt;input[name=&#34;phoneEntry&#34;]&gt; equals: &#34;4564564567&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:80:13)</failure>
+
+      <failure message="Testing if value of &lt;input[name=&#34;titleEntry&#34;]&gt; equals: &#34;Sales Manager&#34;.">    at verifyFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:18:17)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:81:13)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;//*[text()=&#34;Bernice Ortiz&#34;]&#34; using: xpath
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:6:10)
+    at Object.QOBB-60 Cancel prior to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:49:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+ERROR: Unable to locate element: &#34;//*[text()=&#34;Joe Schmo&#34;]&#34; using: xpath
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:6:10)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:66:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+ERROR: Unable to locate element: &#34;//*[text()=&#34;Joe Schmo&#34;]&#34; using: xpath
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:6:10)
+    at Object.QOBB-60 Cancel after to Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Cancel.js:78:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="before-functions.ValidFieldInputs"
+    errors="0" failures="0" hostname="" id="" package="before-functions" skipped="0"
+    tests="3" time="6.051" timestamp="Sun, 11 Nov 2018 17:17:00 GMT">
+  
+    <testcase name="QOBB-60 Test all valid value types for each field" classname="before-functions.ValidFieldInputs" time="4.878" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-60 Test minimum input length for each field" classname="before-functions.ValidFieldInputs" time="0.5430" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-60 Test maximum input length for each field" classname="before-functions.ValidFieldInputs" time="0.6300" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="3">
+
+  <testsuite name="FieldsCantBeSavedWhenInvalid"
+    errors="0" failures="3" hostname="" id="" package="FieldsCantBeSavedWhenInvalid" skipped="0"
+    tests="3" time="13.88" timestamp="Tue, 13 Nov 2018 23:55:24 GMT">
+  
+    <testcase name="QOBB-68 Name invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid" time="4.799" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:18:17)
+    at Object.QOBB-68 Name invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:39:13)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-68 Phone invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid" time="4.584" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:18:17)
+    at Object.QOBB-68 Phone invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:50:13)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-68 Title invalid; other fields valid" classname="FieldsCantBeSavedWhenInvalid" time="4.498" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:18:17)
+    at Object.QOBB-68 Title invalid; other fields valid (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsCantBeSavedWhenInvalid.js:61:13)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

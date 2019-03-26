@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="3">
+
+  <testsuite name="Save"
+    errors="2" failures="1" hostname="" id="" package="Save" skipped="0"
+    tests="3" time="4.619" timestamp="Wed, 14 Nov 2018 00:01:26 GMT">
+  
+    <testcase name="QOBB-59 No Sieve" classname="Save" time="4.601" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;.listContainer &gt; li:nth-child(1)&gt; text to equal: &#34;Bernice Ortiz&#34;">    at verifyEmployeeInList (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:29:17)
+    at Object.QOBB-59 No Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:60:13)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-59 Single Sieve" classname="Save" time="0.01200" assertions="0">
+    </testcase>
+  
+    <testcase name="QOBB-59 Double Sieve" classname="Save" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Save / QOBB-59 Single Sieve]:
+
+  Error: SieveButton was not found in &#34;EmployeeManagerPageObject&#34;. Available elements: titleText,employee1,employee2,employee3,employee4,employee5,employee6,employee7,employee8,employee9,employee10,nameEntry,phoneEntry,titleEntry,employeeID,saveButton,cancelButton,addEmployeeButton,nameLabel,phoneLabel,titleLabel,idEntry,newEmployee,lastEmployee,noEmployeeSelected,errorMessage1,errorMessage2,errorMessage3,invalidInfo
+    at getElement (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Object.element (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at checkEnabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:34:17)
+    at Object.QOBB-59 Single Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:90:13)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+  Error while running [Save / QOBB-59 Double Sieve]:
+
+  Error: SieveButton was not found in &#34;EmployeeManagerPageObject&#34;. Available elements: titleText,employee1,employee2,employee3,employee4,employee5,employee6,employee7,employee8,employee9,employee10,nameEntry,phoneEntry,titleEntry,employeeID,saveButton,cancelButton,addEmployeeButton,nameLabel,phoneLabel,titleLabel,idEntry,newEmployee,lastEmployee,noEmployeeSelected,errorMessage1,errorMessage2,errorMessage3,invalidInfo
+    at getElement (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Object.element (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at checkEnabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:34:17)
+    at Object.QOBB-59 Double Sieve (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\Save.js:115:13)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

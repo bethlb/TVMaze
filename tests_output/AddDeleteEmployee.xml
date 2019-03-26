@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="2">
+
+  <testsuite name="AddDeleteEmployee"
+    errors="2" failures="0" hostname="" id="" package="AddDeleteEmployee" skipped="0"
+    tests="2" time="0.01500" timestamp="Mon, 14 Jan 2019 20:02:41 GMT">
+  
+    <testcase name="QOBB-80 Verify new employee appears in left list when added" classname="AddDeleteEmployee" time="0.01100" assertions="0">
+    </testcase>
+  
+    <testcase name="QOBB-80 Verify new employee has correct employee number" classname="AddDeleteEmployee" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Add Delete Employee / QOBB-80 Verify new employee appears in left list when added]:
+
+  TypeError: Cannot read property &#39;useXpath&#39; of undefined
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:6:14)
+    at Object.QOBB-80 Verify new employee appears in left list when added (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AddDeleteEmployee.js:48:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+  Error while running [Add Delete Employee / QOBB-80 Verify new employee has correct employee number]:
+
+  TypeError: Cannot read property &#39;useXpath&#39; of undefined
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:6:14)
+    at Object.QOBB-80 Verify new employee has correct employee number (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AddDeleteEmployee.js:72:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

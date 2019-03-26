@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="3"
+            tests="4">
+
+  <testsuite name="Watchlist"
+    errors="1" failures="3" hostname="" id="" package="Watchlist" skipped="0"
+    tests="4" time="222.1" timestamp="Mon, 25 Mar 2019 01:34:53 GMT">
+  
+    <testcase name="QOBB-163 Add Series to Watchlist" classname="Watchlist" time="89.15" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Add Watchlist episode settings" classname="Watchlist" time="78.73" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if attribute title of &lt;/html/body/div[2]/div/section/section/article/section/article[14]/div[6]/div/div[1]/i/..&gt; contains &#34;Acquired&#34;. Element could not be located.">    at Object.QOBB-163 Add Watchlist episode settings (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Watchlist.js:95:21)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Update Watchlist episode settings" classname="Watchlist" time="29.69" assertions="1">  <failure message="Timed out while waiting for element &lt;#logo&gt; to be present for 10000 milliseconds.">    at Object.beforeEach (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Watchlist.js:16:14)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Remove series from Watchlist" classname="Watchlist" time="24.58" assertions="1">  <failure message="Timed out while waiting for element &lt;#logo&gt; to be present for 10000 milliseconds.">    at Object.beforeEach (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Watchlist.js:16:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;/html/body/div[2]/div/section/section/article/section/article[14]/div[6]/div/div[1]/i/..&#34; using: xpath
+    at F.command (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\api\assertions\attributeContains.js:54:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

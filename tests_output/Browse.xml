@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Browse"
+    errors="1" failures="0" hostname="" id="" package="Browse" skipped="0"
+    tests="1" time="0.01000" timestamp="Sun, 10 Mar 2019 00:01:27 GMT">
+  
+    <testcase name="QOBB-162 " classname="Browse" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Browse / QOBB-162 ]:
+
+  TypeError: Cannot read property &#39;forEach&#39; of undefined
+    at Object.QOBB-162  (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Browse.js:63:32)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

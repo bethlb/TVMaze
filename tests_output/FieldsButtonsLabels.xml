@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="FieldsButtonsLabels"
+    errors="1" failures="0" hostname="" id="" package="FieldsButtonsLabels" skipped="0"
+    tests="1" time="0.01100" timestamp="Tue, 15 Jan 2019 15:59:58 GMT">
+  
+    <testcase name="QOB-55 All expected fields, labels and buttons are present" classname="FieldsButtonsLabels" time="0.01100" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Fields Buttons Labels / QOB-55 All expected fields, labels and buttons are present]:
+
+  Error: emailLabel was not found in &#34;EmployeeManagerPageObject&#34;. Available elements: titleText,employee1,cardTitle,nameEntry,phoneEntry,emailEntry,titleEntry,employeeID,saveButton,cancelButton,deleteButton,addEmployeeButton,nameLabel,phoneLabel,titleLabel,namePrompt,phonePrompt,emailPrompt,titlePrompt,idEntry,lastEmployee,noEmployeeSelected,errorMessage1,errorMessage2,errorMessage3,invalidInfo
+    at getElement (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Object.element (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at Object.QOB-55 All expected fields, labels and buttons are present (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\FieldsButtonsLabels.js:26:36)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

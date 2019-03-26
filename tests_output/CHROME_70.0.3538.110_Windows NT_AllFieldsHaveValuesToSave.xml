@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="3">
+
+  <testsuite name="AllFieldsHaveValuesToSave"
+    errors="0" failures="3" hostname="" id="" package="AllFieldsHaveValuesToSave" skipped="0"
+    tests="3" time="12.46" timestamp="Sun, 02 Dec 2018 23:49:03 GMT">
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing name value" classname="AllFieldsHaveValuesToSave" time="3.910" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing name value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:25:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing phone value" classname="AllFieldsHaveValuesToSave" time="4.431" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing phone value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:34:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing title value" classname="AllFieldsHaveValuesToSave" time="4.123" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at checkDisabled (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\testAssets\functions.js:74:17)
+    at Object.QOBB-67 Every field must be populated to Save - Missing title value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllFieldsHaveValuesToSave.js:43:9)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

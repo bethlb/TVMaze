@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="3">
+
+  <testsuite name="Search"
+    errors="0" failures="2" hostname="" id="" package="Search" skipped="0"
+    tests="3" time="113.4" timestamp="Tue, 26 Mar 2019 01:38:59 GMT">
+  
+    <testcase name="QOBB-161 Show Search" classname="Search" time="66.90" assertions="26">
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-161 People Search" classname="Search" time="32.55" assertions="10">
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:47:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:47:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+
+      <failure message="Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+)">
+  assertModule[prop].apply(null, arguments)
+): Failed [ok]: (The expression evaluated to a falsy value:
+
+  assertModule[prop].apply(null, arguments)
+) - Expected &#34;true&#34; but got: &#34;false&#34;
+    at Object.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:47:32)
+    at endReadableNT (_stream_readable.js:1094:12)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-161 Empty Search" classname="Search" time="13.97" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="before-apply-data-driven-testing.tests.InvalidFieldInputs"
+    errors="0" failures="0" hostname="" id="" package="tests" skipped="0"
+    tests="6" time="20.89" timestamp="Mon, 19 Nov 2018 17:32:21 GMT">
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 1" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="7.798" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 2" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="2.852" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 3" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="2.545" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid minimum field length" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="2.511" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid maximum field length" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="2.685" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-62 Test invalid field is underlined in Red" classname="before-apply-data-driven-testing.tests.InvalidFieldInputs" time="2.498" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

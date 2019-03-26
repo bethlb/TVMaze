@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="3">
+
+  <testsuite name="before-functions.AllFieldsHaveValuesToSave"
+    errors="0" failures="3" hostname="" id="" package="before-functions" skipped="0"
+    tests="3" time="13.40" timestamp="Sat, 10 Nov 2018 18:33:08 GMT">
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing name value" classname="before-functions.AllFieldsHaveValuesToSave" time="4.743" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at Object.QOBB-67 Every field must be populated to Save - Missing name value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests-before-functions\AllFieldsHaveValuesToSave.js:25:36)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing phone value" classname="before-functions.AllFieldsHaveValuesToSave" time="4.228" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at Object.QOBB-67 Every field must be populated to Save - Missing phone value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests-before-functions\AllFieldsHaveValuesToSave.js:39:36)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-67 Every field must be populated to Save - Missing title value" classname="before-functions.AllFieldsHaveValuesToSave" time="4.426" assertions="2">
+
+      <failure message="Expected element &lt;#saveBtn&gt; to have attribute &#34;disabled&#34; - attribute was not found">    at Object.QOBB-67 Every field must be populated to Save - Missing title value (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests-before-functions\AllFieldsHaveValuesToSave.js:54:36)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

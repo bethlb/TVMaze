@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="Watchlist"
+    errors="0" failures="0" hostname="" id="" package="Watchlist" skipped="0"
+    tests="4" time="204.2" timestamp="Tue, 26 Mar 2019 02:03:19 GMT">
+  
+    <testcase name="QOBB-163 Add Series to Watchlist" classname="Watchlist" time="71.06" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Add Watchlist episode settings" classname="Watchlist" time="43.62" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Update Watchlist episode settings" classname="Watchlist" time="66.41" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-163 Remove series from Watchlist" classname="Watchlist" time="23.12" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ValidFieldInputs"
+    errors="1" failures="0" hostname="" id="" package="ValidFieldInputs" skipped="0"
+    tests="1" time="0.01700" timestamp="Fri, 18 Jan 2019 17:11:43 GMT">
+  
+    <testcase name="QOBB-60 Test all valid value types for each field" classname="ValidFieldInputs" time="0.01700" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Valid Field Inputs / QOBB-60 Test all valid value types for each field]:
+
+  TypeError: Cannot read property &#39;click&#39; of undefined
+    at Object.QOBB-60 Test all valid value types for each field (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\ValidFieldInputs.js:44:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ValidFieldInputs"
+    errors="0" failures="0" hostname="" id="" package="ValidFieldInputs" skipped="0"
+    tests="1" time="4.900" timestamp="Sun, 02 Dec 2018 23:49:55 GMT">
+  
+    <testcase name="QOBB-60 Test all valid value types for each field" classname="ValidFieldInputs" time="4.900" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

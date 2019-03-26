@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="AddNewEmployee"
+    errors="0" failures="0" hostname="" id="" package="AddNewEmployee" skipped="0"
+    tests="4" time="5.715" timestamp="Sun, 02 Dec 2018 23:48:39 GMT">
+  
+    <testcase name="QOBB-80 Verify new employee appears in left list when added" classname="AddNewEmployee" time="3.692" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-80 Verify new employee has correct employee number" classname="AddNewEmployee" time="0.8830" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-80 Verify new employee field prompts have valid values" classname="AddNewEmployee" time="0.4250" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-80 Verify new employee Save is working" classname="AddNewEmployee" time="0.7150" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="GeneralEdit"
+    errors="0" failures="0" hostname="" id="" package="GeneralEdit" skipped="0"
+    tests="2" time="4.100" timestamp="Sun, 02 Dec 2018 23:49:37 GMT">
+  
+    <testcase name="QOBB-58 Name, Phone and Title can be edited; Save and Cancel active when fields are edited" classname="GeneralEdit" time="3.929" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-58 ID field cannot be edited; Save and Cancel not active for ID" classname="GeneralEdit" time="0.1710" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

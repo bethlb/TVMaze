@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="InvalidFieldInputs"
+    errors="1" failures="0" hostname="" id="" package="InvalidFieldInputs" skipped="0"
+    tests="1" time="0.01000" timestamp="Tue, 15 Jan 2019 21:21:24 GMT">
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 1" classname="InvalidFieldInputs" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Invalid Field Inputs / QOBB-62 Test invalid value types for each field - Test 1]:
+
+  ReferenceError: selector is not defined
+    at setFieldValue (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\testAssets\functions.js:57:27)
+    at QOBB-62 Test invalid value types for each field - Test 1.testData.invalidFieldValues.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:37:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-62 Test invalid value types for each field - Test 1 (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:32:37)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

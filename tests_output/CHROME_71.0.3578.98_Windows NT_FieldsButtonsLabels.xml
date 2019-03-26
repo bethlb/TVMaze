@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="FieldsButtonsLabels"
+    errors="0" failures="0" hostname="" id="" package="FieldsButtonsLabels" skipped="0"
+    tests="1" time="12.56" timestamp="Tue, 22 Jan 2019 00:34:02 GMT">
+  
+    <testcase name="QOB-55 All expected fields, labels and buttons are present" classname="FieldsButtonsLabels" time="12.56" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

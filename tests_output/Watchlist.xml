@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Watchlist"
+    errors="1" failures="0" hostname="" id="" package="Watchlist" skipped="0"
+    tests="1" time="0.008000" timestamp="Sat, 23 Mar 2019 13:23:34 GMT">
+  
+    <testcase name="QOBB-163 Add Watchlist episode settings" classname="Watchlist" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Watchlist / QOBB-163 Add Watchlist episode settings]:
+
+  Error: watchListHeading was not found in &#34;TVMazePageObject&#34;. Available elements: searchInput,searchButton,showsButton,peopleButton,networksButton,webChannelsButton,articlesButton,scheduleButton,calendarButton,countDownButton,forumsButton,notificationsIcon,toolsButton,networksHeading,searchHeading,networksCountry,networksSort,followIcon,firstFollowIcon,unfollowIcon,watchlistButton,episodesWatchListButton,watchlistHeading,tools,showsHeading,episodesButton,episodesHeading,showStatusHeading,showStatusButton,followsButton,followlistHeading,searchListHeading,showsListHeading,peopleListHeading,networksListHeading,webchannelsListHeading,personName,showsEmptyFollowMsg,peopleEmptyFollowMsg,networksEmptyFollowMsg,webchannelsEmptyFollowMsg
+    at getElement (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.waitForElementVisible (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at Object.QOBB-163 Add Watchlist episode settings (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Watchlist.js:75:14)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

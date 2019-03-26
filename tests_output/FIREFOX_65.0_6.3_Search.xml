@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Search"
+    errors="0" failures="1" hostname="" id="" package="Search" skipped="0"
+    tests="1" time="26.00" timestamp="Thu, 21 Mar 2019 02:49:09 GMT">
+  
+    <testcase name="QOBB-161 Show Search" classname="Search" time="26.00" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//a[contains(@href,&#34;shows&#34;)][text()=&#34;The Shoe People&#34;]&gt; is present.">    at QOBB-161 Show Search.testData.showInputAndResults.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-161 Show Search (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:25:38)</failure>
+
+      <failure message="Testing if element &lt;//a[contains(@href,&#34;shows&#34;)][text()=&#34;Tenspeed and Brown Shoe&#34;]&gt; is present.">    at QOBB-161 Show Search.testData.showInputAndResults.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-161 Show Search (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:25:38)</failure>
+
+      <failure message="Testing if element &lt;//a[contains(@href,&#34;shows&#34;)][text()=&#34;Red Shoe Diaries&#34;]&gt; is present.">    at QOBB-161 Show Search.testData.showInputAndResults.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:29:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-161 Show Search (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Search.js:25:38)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

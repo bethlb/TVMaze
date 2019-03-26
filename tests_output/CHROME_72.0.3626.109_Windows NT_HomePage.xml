@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="HomePage"
+    errors="0" failures="0" hostname="" id="" package="HomePage" skipped="0"
+    tests="1" time="16.00" timestamp="Mon, 18 Feb 2019 00:51:56 GMT">
+  
+    <testcase name="QOBB-xx " classname="HomePage" time="16.00" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AllEmployeesInApp"
+    errors="1" failures="0" hostname="" id="" package="AllEmployeesInApp" skipped="0"
+    tests="1" time="0.009000" timestamp="Mon, 05 Nov 2018 02:45:59 GMT">
+  
+    <testcase name="QOBB-56 Check all employee names correct after initial app load" classname="AllEmployeesInApp" time="0.009000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [All Employees In App / QOBB-56 Check all employee names correct after initial app load]:
+
+  TypeError: Cannot read property &#39;element&#39; of undefined
+    at Object.QOBB-56 Check all employee names correct after initial app load (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\AllEmployeesInApp.js:19:20)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

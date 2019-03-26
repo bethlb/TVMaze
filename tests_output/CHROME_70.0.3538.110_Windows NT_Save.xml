@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="Save"
+    errors="0" failures="0" hostname="" id="" package="Save" skipped="0"
+    tests="3" time="5.894" timestamp="Sun, 02 Dec 2018 23:49:49 GMT">
+  
+    <testcase name="QOBB-59 No Save" classname="Save" time="3.828" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-59 Single Save" classname="Save" time="1.046" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-59 Double Save" classname="Save" time="1.020" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

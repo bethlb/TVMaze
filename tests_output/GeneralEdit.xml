@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="GeneralEdit"
+    errors="1" failures="0" hostname="" id="" package="GeneralEdit" skipped="0"
+    tests="1" time="0.009000" timestamp="Thu, 15 Nov 2018 14:38:12 GMT">
+  
+    <testcase name="QOBB-58 ID field cannot be edited; Save and Cancel not active for ID" classname="GeneralEdit" time="0.009000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [General Edit / QOBB-58 ID field cannot be edited; Save and Cancel not active for ID]:
+
+  ReferenceError: browser is not defined
+    at clickByText (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\GeneralEdit.js:5:5)
+    at Object.QOBB-58 ID field cannot be edited; Save and Cancel not active for ID (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\GeneralEdit.js:69:9)
+    at Module.call (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

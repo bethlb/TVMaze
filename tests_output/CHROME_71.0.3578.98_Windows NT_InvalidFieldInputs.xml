@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="InvalidFieldInputs"
+    errors="2" failures="1" hostname="" id="" package="InvalidFieldInputs" skipped="0"
+    tests="1" time="33.11" timestamp="Tue, 22 Jan 2019 01:29:47 GMT">
+  
+    <testcase name="QOBB-62 Test invalid value types for each field - Test 1" classname="InvalidFieldInputs" time="33.11" assertions="39">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;(//div)[text()=&#34;The email must be a valid 30 character email address. &#34;]&gt; is visible. Element could not be located.">    at QOBB-62 Test invalid value types for each field - Test 1.testData.invalidFieldValues.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:65:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-62 Test invalid value types for each field - Test 1 (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:32:37)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;(//div)[text()=&#34;The email must be a valid 30 character email address. &#34;]&gt; is visible. Element could not be located.">    at QOBB-62 Test invalid value types for each field - Test 1.testData.invalidFieldValues.forEach.test (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:65:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.QOBB-62 Test invalid value types for each field - Test 1 (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager-V2\tests\InvalidFieldInputs.js:32:37)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;(//div)[text()=&#34;The email must be a valid 30 character email address. &#34;]&#34; using: xpath
+    at F.command (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\api\assertions\visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:73:8)
+ERROR: Unable to locate element: &#34;(//div)[text()=&#34;The email must be a valid 30 character email address. &#34;]&#34; using: xpath
+    at F.command (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\api\assertions\visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Users\bethl_000\AppData\Roaming\npm\node_modules\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

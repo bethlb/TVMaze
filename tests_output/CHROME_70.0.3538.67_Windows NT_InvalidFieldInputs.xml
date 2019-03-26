@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="InvalidFieldInputs"
+    errors="0" failures="1" hostname="" id="" package="InvalidFieldInputs" skipped="0"
+    tests="1" time="9.729" timestamp="Thu, 25 Oct 2018 17:57:15 GMT">
+  
+    <testcase name="QOBB-62 Test error if not valid maximum field length" classname="InvalidFieldInputs" time="9.729" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;//div[@class=&#34;errorCard&#34;][1]&gt; text to contain: &#34;The name field must be between 1 and 30 characters long. The phone field must be between 1 and 30 characters long. The title field must be between 1 and 30 characters long.&#34;">    at Object.QOBB-62 Test error if not valid maximum field length (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\EmployeeManager\tests\InvalidFieldInputs.js:127:23)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

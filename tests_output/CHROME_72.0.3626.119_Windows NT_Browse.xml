@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Browse"
+    errors="0" failures="1" hostname="" id="" package="Browse" skipped="0"
+    tests="1" time="80.44" timestamp="Sun, 10 Mar 2019 03:44:20 GMT">
+  
+    <testcase name="QOBB-162 " classname="Browse" time="80.44" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Networks are sorted correctly A-Z)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Browse.js:111:32)</failure>
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Networks are sorted correctly A-Z)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Browse.js:111:32)</failure>
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Networks are sorted correctly A-Z)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Browse.js:111:32)</failure>
+
+    
+
+    
+
+      <failure message="Failed [ok]: (Networks are sorted correctly A-Z)">    at F.&lt;anonymous&gt; (C:\Users\bethl_000\Documents\Beth\Learning\DevMountain\TVMaze\tests\Browse.js:111:32)</failure>
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

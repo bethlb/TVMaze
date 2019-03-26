@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="Cancel"
+    errors="0" failures="0" hostname="" id="" package="Cancel" skipped="0"
+    tests="2" time="5.330" timestamp="Sun, 02 Dec 2018 23:49:15 GMT">
+  
+    <testcase name="QOBB-60 Cancel prior to Save" classname="Cancel" time="4.359" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="QOBB-60 Cancel after to Save" classname="Cancel" time="0.9710" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
